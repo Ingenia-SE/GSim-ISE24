@@ -1,0 +1,436 @@
+[0.072s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/src/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup
+[0.327s] -- The C compiler identification is GNU 11.4.0
+[0.583s] -- The CXX compiler identification is GNU 11.4.0
+[0.615s] -- Detecting C compiler ABI info
+[0.921s] -- Detecting C compiler ABI info - done
+[0.955s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.956s] -- Detecting C compile features
+[0.957s] -- Detecting C compile features - done
+[0.970s] -- Detecting CXX compiler ABI info
+[1.323s] -- Detecting CXX compiler ABI info - done
+[1.357s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.358s] -- Detecting CXX compile features
+[1.360s] -- Detecting CXX compile features - done
+[1.374s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.050s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.320s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[2.774s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.805s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.852s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.924s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.028s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.408s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.426s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.937s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.082s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.327s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.390s] -- Looking for pthread.h
+[4.711s] -- Looking for pthread.h - found
+[4.712s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.045s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.050s] -- Found Threads: TRUE  
+[5.967s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[5.972s] -- Checking for module 'bullet>=2.82'
+[6.032s] --   Found bullet, version 3.05
+[6.554s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[6.785s] -- Found assimp: /usr/include (found version "5.2.0") 
+[6.912s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[7.078s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[7.165s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[7.200s] -- Looking for ignition-math6 -- found version 6.15.1
+[7.238s] -- Searching for dependencies of ignition-math6
+[7.246s] -- Looking for OGRE...
+[7.248s] -- OGRE_PREFIX_WATCH changed.
+[7.272s] -- Checking for module 'OGRE'
+[7.331s] --   Found OGRE, version 1.9.0
+[7.482s] -- Found Ogre Ghadamon (1.9.0)
+[7.519s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[7.563s] -- Looking for OGRE_Paging...
+[7.594s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[7.594s] -- Looking for OGRE_Terrain...
+[7.623s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[7.624s] -- Looking for OGRE_Property...
+[7.653s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[7.653s] -- Looking for OGRE_RTShaderSystem...
+[7.687s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[7.687s] -- Looking for OGRE_Volume...
+[7.720s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[7.721s] -- Looking for OGRE_Overlay...
+[7.753s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[8.513s] -- Looking for ignition-math6 -- found version 6.15.1
+[8.528s] -- Looking for ignition-transport8 -- found version 8.2.1
+[8.530s] -- Searching for dependencies of ignition-transport8
+[8.625s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[8.685s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[8.706s] -- Checking for module 'libzmq >= 4'
+[8.773s] --   Found libzmq , version 4.3.4
+[8.955s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[8.984s] -- Checking for module 'uuid'
+[9.038s] --   Found uuid, version 2.37.2
+[9.173s] -- Found UUID: TRUE  
+[9.186s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.188s] -- Searching for dependencies of ignition-msgs5
+[9.275s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.300s] -- Checking for module 'tinyxml2'
+[9.352s] --   Found tinyxml2, version 9.0.0
+[9.491s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[9.504s] -- Looking for ignition-common3 -- found version 3.14.0
+[9.506s] -- Searching for dependencies of ignition-common3
+[9.508s] -- Looking for dlfcn.h - found
+[9.511s] -- Looking for libdl - found
+[9.516s] -- Found DL: TRUE  
+[9.566s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[9.569s] -- Searching for <ignition-common3> component [graphics]
+[9.582s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[9.584s] -- Searching for dependencies of ignition-common3-graphics
+[9.586s] -- Looking for ignition-math6 -- found version 6.15.1
+[9.601s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[9.603s] -- Searching for dependencies of ignition-fuel_tools4
+[9.931s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[9.971s] -- Checking for module 'jsoncpp'
+[10.025s] --   Found jsoncpp, version 1.9.5
+[10.160s] -- Found JSONCPP: TRUE  
+[10.185s] -- Checking for module 'libzip'
+[10.239s] --   Found libzip, version 1.7.3
+[10.375s] -- Found ZIP: TRUE  
+[10.376s] -- Looking for ignition-common3 -- found version 3.14.0
+[10.378s] -- Looking for ignition-math6 -- found version 6.15.1
+[10.380s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[10.400s] -- Gazebo version: 11.10
+[10.401s] -- Checking for module 'tbb'
+[10.455s] --   Found tbb, version 2021.5.0
+[10.635s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[11.093s] -- Added test 'flake8' to check Python code syntax and style conventions
+[11.107s] -- Added test 'lint_cmake' to check CMake code style
+[11.115s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[11.169s] -- Added test 'xmllint' to check XML markup files
+[11.176s] -- Configuring done
+[11.201s] -- Generating done
+[11.211s] -- Build files have been written to: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup
+[11.254s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/src/irobot_create_gazebo/irobot_create_gazebo_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup
+[11.261s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup -- -j8 -l8
+[11.449s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup -- -j8 -l8
+[11.556s] Invoking command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup
+[11.587s] -- Install configuration: ""
+[11.590s] -- Execute custom install script
+[11.592s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/config/gazebo_params.yaml
+[11.643s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo.launch.py
+[11.682s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_gazebo_aws_small.launch.py
+[11.721s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/create3_spawn.launch.py
+[11.759s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/gazebo.launch.py
+[11.799s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_0.world
+[11.837s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_1.world
+[11.874s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_10.world
+[11.915s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_100.world
+[11.953s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_101.world
+[11.992s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_102.world
+[12.031s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_103.world
+[12.071s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_104.world
+[12.111s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_105.world
+[12.149s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_106.world
+[12.188s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_107.world
+[12.227s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_108.world
+[12.265s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_109.world
+[12.304s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_11.world
+[12.342s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_110.world
+[12.382s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_111.world
+[12.421s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_112.world
+[12.460s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_113.world
+[12.500s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_114.world
+[12.539s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_115.world
+[12.577s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_116.world
+[12.616s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_117.world
+[12.655s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_118.world
+[12.694s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_119.world
+[12.733s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_12.world
+[12.771s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_120.world
+[12.811s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_121.world
+[12.850s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_122.world
+[12.889s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_123.world
+[12.929s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_124.world
+[12.967s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_125.world
+[13.007s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_126.world
+[13.045s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_127.world
+[13.084s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_128.world
+[13.124s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_129.world
+[13.163s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_13.world
+[13.201s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_130.world
+[13.240s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_131.world
+[13.279s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_132.world
+[13.319s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_133.world
+[13.357s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_134.world
+[13.396s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_135.world
+[13.434s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_136.world
+[13.473s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_137.world
+[13.512s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_138.world
+[13.550s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_139.world
+[13.590s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_14.world
+[13.629s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_140.world
+[13.667s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_141.world
+[13.707s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_142.world
+[13.746s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_143.world
+[13.784s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_144.world
+[13.824s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_145.world
+[13.863s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_146.world
+[13.902s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_147.world
+[13.941s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_148.world
+[13.980s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_149.world
+[14.019s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_15.world
+[14.057s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_150.world
+[14.096s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_151.world
+[14.136s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_152.world
+[14.174s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_153.world
+[14.214s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_154.world
+[14.252s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_155.world
+[14.291s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_156.world
+[14.329s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_157.world
+[14.368s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_158.world
+[14.407s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_159.world
+[14.446s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_16.world
+[14.484s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_160.world
+[14.523s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_161.world
+[14.561s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_162.world
+[14.601s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_163.world
+[14.639s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_164.world
+[14.678s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_165.world
+[14.717s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_166.world
+[14.756s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_167.world
+[14.796s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_168.world
+[14.835s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_169.world
+[14.873s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_17.world
+[14.913s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_170.world
+[14.951s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_171.world
+[14.991s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_172.world
+[15.029s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_173.world
+[15.067s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_174.world
+[15.106s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_175.world
+[15.144s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_176.world
+[15.183s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_177.world
+[15.222s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_178.world
+[15.260s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_179.world
+[15.299s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_18.world
+[15.337s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_180.world
+[15.376s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_181.world
+[15.415s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_182.world
+[15.454s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_183.world
+[15.493s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_184.world
+[15.532s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_185.world
+[15.571s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_186.world
+[15.610s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_187.world
+[15.649s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_188.world
+[15.688s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_189.world
+[15.727s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_19.world
+[15.766s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_190.world
+[15.805s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_191.world
+[15.844s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_192.world
+[15.882s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_193.world
+[15.921s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_194.world
+[15.960s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_195.world
+[15.999s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_196.world
+[16.039s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_197.world
+[16.077s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_198.world
+[16.117s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_199.world
+[16.156s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_2.world
+[16.194s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_20.world
+[16.234s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_200.world
+[16.272s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_201.world
+[16.314s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_202.world
+[16.352s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_203.world
+[16.392s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_204.world
+[16.432s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_205.world
+[16.473s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_206.world
+[16.512s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_207.world
+[16.551s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_208.world
+[16.591s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_209.world
+[16.631s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_21.world
+[16.669s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_210.world
+[16.708s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_211.world
+[16.748s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_212.world
+[16.787s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_213.world
+[16.827s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_214.world
+[16.867s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_215.world
+[16.906s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_216.world
+[16.946s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_217.world
+[16.987s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_218.world
+[17.026s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_219.world
+[17.065s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_22.world
+[17.104s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_220.world
+[17.142s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_221.world
+[17.180s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_222.world
+[17.220s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_223.world
+[17.258s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_224.world
+[17.298s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_225.world
+[17.337s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_226.world
+[17.375s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_227.world
+[17.415s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_228.world
+[17.454s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_229.world
+[17.493s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_23.world
+[17.532s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_230.world
+[17.571s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_231.world
+[17.610s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_232.world
+[17.649s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_233.world
+[17.688s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_234.world
+[17.727s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_235.world
+[17.766s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_236.world
+[17.805s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_237.world
+[17.844s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_238.world
+[17.882s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_239.world
+[17.922s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_24.world
+[17.961s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_240.world
+[18.000s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_241.world
+[18.039s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_242.world
+[18.079s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_243.world
+[18.118s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_244.world
+[18.156s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_245.world
+[18.195s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_246.world
+[18.235s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_247.world
+[18.274s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_248.world
+[18.313s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_249.world
+[18.352s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_25.world
+[18.390s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_250.world
+[18.429s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_251.world
+[18.467s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_252.world
+[18.506s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_253.world
+[18.545s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_254.world
+[18.584s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_255.world
+[18.624s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_256.world
+[18.662s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_257.world
+[18.703s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_258.world
+[18.742s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_259.world
+[18.780s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_26.world
+[18.820s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_260.world
+[18.858s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_261.world
+[18.897s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_262.world
+[18.936s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_263.world
+[18.975s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_264.world
+[19.014s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_265.world
+[19.053s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_266.world
+[19.091s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_267.world
+[19.131s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_268.world
+[19.170s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_269.world
+[19.209s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_27.world
+[19.248s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_270.world
+[19.287s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_271.world
+[19.327s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_272.world
+[19.366s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_273.world
+[19.406s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_274.world
+[19.444s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_275.world
+[19.482s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_276.world
+[19.524s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_277.world
+[19.564s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_278.world
+[19.602s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_279.world
+[19.640s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_28.world
+[19.679s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_280.world
+[19.719s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_281.world
+[19.757s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_282.world
+[19.795s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_283.world
+[19.835s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_284.world
+[19.873s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_285.world
+[19.914s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_286.world
+[19.953s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_287.world
+[19.992s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_288.world
+[20.031s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_289.world
+[20.070s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_29.world
+[20.109s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_290.world
+[20.148s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_291.world
+[20.186s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_292.world
+[20.226s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_293.world
+[20.264s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_294.world
+[20.304s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_295.world
+[20.343s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_296.world
+[20.382s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_297.world
+[20.421s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_298.world
+[20.460s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_299.world
+[20.500s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_3.world
+[20.538s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_30.world
+[20.576s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_31.world
+[20.615s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_32.world
+[20.654s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_33.world
+[20.692s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_34.world
+[20.731s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_35.world
+[20.769s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_36.world
+[20.808s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_37.world
+[20.846s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_38.world
+[20.885s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_39.world
+[20.924s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_4.world
+[20.962s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_40.world
+[21.001s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_41.world
+[21.040s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_42.world
+[21.079s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_43.world
+[21.119s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_44.world
+[21.158s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_45.world
+[21.197s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_46.world
+[21.236s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_47.world
+[21.275s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_48.world
+[21.315s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_49.world
+[21.354s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_5.world
+[21.393s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_50.world
+[21.432s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_51.world
+[21.474s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_52.world
+[21.514s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_53.world
+[21.553s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_54.world
+[21.592s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_55.world
+[21.632s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_56.world
+[21.670s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_57.world
+[21.712s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_58.world
+[21.750s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_59.world
+[21.789s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_6.world
+[21.828s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_60.world
+[21.866s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_61.world
+[21.905s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_62.world
+[21.944s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_63.world
+[21.983s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_64.world
+[22.022s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_65.world
+[22.060s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_66.world
+[22.098s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_67.world
+[22.139s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_68.world
+[22.177s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_69.world
+[22.216s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_7.world
+[22.255s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_70.world
+[22.295s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_71.world
+[22.334s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_72.world
+[22.373s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_73.world
+[22.412s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_74.world
+[22.450s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_75.world
+[22.489s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_76.world
+[22.527s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_77.world
+[22.566s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_78.world
+[22.605s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_79.world
+[22.645s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_8.world
+[22.683s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_80.world
+[22.723s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_81.world
+[22.762s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_82.world
+[22.801s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_83.world
+[22.841s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_84.world
+[22.880s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_85.world
+[22.919s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_86.world
+[22.958s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_87.world
+[22.997s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_88.world
+[23.036s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_89.world
+[23.074s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_9.world
+[23.114s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_90.world
+[23.153s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_91.world
+[23.191s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_92.world
+[23.231s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_93.world
+[23.270s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_94.world
+[23.308s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_95.world
+[23.347s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_96.world
+[23.385s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_97.world
+[23.425s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_98.world
+[23.464s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/launch/world_files/world_99.world
+[23.504s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_gazebo_bringup
+[23.543s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_gazebo_bringup
+[23.583s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.sh
+[23.622s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/ament_prefix_path.dsv
+[23.662s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.sh
+[23.700s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/environment/path.dsv
+[23.741s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.bash
+[23.780s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.sh
+[23.819s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.zsh
+[23.858s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/local_setup.dsv
+[23.897s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.dsv
+[23.937s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/ament_index/resource_index/packages/irobot_create_gazebo_bringup
+[23.976s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig.cmake
+[24.015s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/cmake/irobot_create_gazebo_bringupConfig-version.cmake
+[24.053s] -- Symlinking: /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_bringup/share/irobot_create_gazebo_bringup/package.xml
+[24.101s] Invoked command in '/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup' returned '0': AMENT_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_description:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_control:/opt/ros/humble LD_LIBRARY_PATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_nodes/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_gazebo_plugins/lib:/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_toolbox/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/install/irobot_create_common_bringup/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_gazebo_bringup

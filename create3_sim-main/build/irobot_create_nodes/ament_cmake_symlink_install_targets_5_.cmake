@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/alex/Programming/ROS2/Ingenia/GSim-ISE24/create3_sim-main/build/irobot_create_nodes/ui_mgr" "TARGETS" "ui_mgr" "DESTINATION" "lib/irobot_create_nodes")
