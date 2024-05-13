@@ -1,0 +1,42 @@
+Preparación del Ordenador para Trabajar con Git
+Parte 1: Ubuntu
+Instalación de Visual Studio Code en Ubuntu
+Visual Studio Code es un editor de código fuente desarrollado por Microsoft que es compatible con varios lenguajes de programación y herramientas, y ofrece una gran cantidad de características útiles para el desarrollo de software.
+Pasos:
+1.	Abre una terminal en Ubuntu.
+2.	Ejecuta los siguientes comandos para descargar e instalar Visual Studio Code:
+sudo apt update
+sudo apt install software-properties-common apt-transport-https wget
+wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+sudo apt update
+sudo apt install code
+Instalación de Git en Ubuntu
+Git es un sistema de control de versiones distribuido que te ayuda a rastrear cambios en el código fuente durante el desarrollo de software.
+Pasos:
+1.	Abre una terminal en Ubuntu.
+2.	Ejecuta el siguiente comando para instalar Git:
+sudo apt update
+sudo apt install git
+
+
+
+
+
+
+
+
+Parte 2: Windows
+Instalación de Visual Studio Code en Windows
+Visual Studio Code es un editor de código fuente desarrollado por Microsoft que es compatible con varios lenguajes de programación y herramientas, y ofrece una gran cantidad de características útiles para el desarrollo de software.
+Pasos:
+1.	Descarga el instalador de Visual Studio Code desde el sitio web oficial: Descargar VSCode.
+2.	Ejecuta el instalador descargado y sigue las instrucciones en pantalla para completar la instalación.
+Instalación de Git en Windows
+Git es un sistema de control de versiones distribuido que te ayuda a rastrear cambios en el código fuente durante el desarrollo de software.
+Pasos:
+1.	Descarga el instalador de Git desde el sitio web oficial: Descargar Git.
+2.	Ejecuta el instalador descargado y sigue las instrucciones en pantalla para completar la instalación. Asegúrate de marcar la opción "Git Bash Here" para tener acceso a Git desde el símbolo del sistema.
+Funciones de Visual Studio Code y Git
+•	Visual Studio Code (VSCode): VSCode es un editor de código fuente altamente personalizable que incluye características como resaltado de sintaxis, finalización de código, depuración integrada, control de versiones integrado y una amplia variedad de extensiones que amplían su funcionalidad.
+•	Git: Git es un sistema de control de versiones distribuido que te permite rastrear los cambios en tus archivos de código fuente a lo largo del tiempo. Te permite colaborar con otros desarrolladores, mantener un historial de cambios y gestionar diferentes versiones de tu proyecto de software de manera eficiente.

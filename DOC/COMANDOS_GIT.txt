@@ -1,0 +1,33 @@
+COMANDOS GIT
+1.	git init:
+•	Este comando se utiliza para crear un nuevo repositorio de Git en un directorio local. Inicializa un repositorio Git vacío o convierte un directorio existente en un repositorio Git.
+2.	git clone <url>:
+•	Clona un repositorio Git existente en un nuevo directorio local. Descarga una copia completa del repositorio, incluyendo todas las ramas y el historial de commits.
+3.	git add <archivo>:
+•	Agrega cambios de un archivo al área de preparación (staging area) para ser incluidos en el próximo commit. Puedes agregar un archivo específico o todos los archivos modificados en el directorio de trabajo.
+4.	git commit -m "mensaje":
+•	Registra los cambios confirmados en el repositorio. Guarda una instantánea de los cambios realizados en el área de preparación y almacena un mensaje descriptivo que explica los cambios realizados en el commit.
+5.	git status:
+•	Muestra el estado actual del repositorio Git. Muestra los archivos modificados, los archivos en el área de preparación y los archivos que aún no han sido rastreados por Git.
+6.	git log:
+•	Muestra el historial de commits del repositorio. Muestra información detallada sobre cada commit, como el autor, la fecha y hora, y el mensaje del commit.
+7.	git branch:
+•	Muestra una lista de ramas en el repositorio. Puede mostrar todas las ramas locales o remotas, así como la rama actualmente activa.
+8.	git checkout <rama>:
+•	Cambia a una rama específica en el repositorio. Te permite cambiar entre diferentes ramas para trabajar en diferentes características o versiones del proyecto.
+9.	git merge <rama>:
+•	Fusiona una rama específica en la rama actual. Combina los cambios de la rama especificada en la rama actual, creando un nuevo commit que representa la fusión de los cambios.
+10.	git push:
+•	Sube los commits locales al repositorio remoto. Actualiza el estado del repositorio remoto con los cambios realizados localmente.
+11.	git pull:
+•	Descarga los cambios del repositorio remoto y fusiona esos cambios en el repositorio local. Es equivalente a ejecutar git fetch seguido de git merge.
+12.	git fetch:
+•	Descarga los cambios del repositorio remoto a tu repositorio local, pero no los fusiona automáticamente. Te permite ver los cambios antes de fusionarlos en tu rama local.
+13.	git remote:
+•	Muestra una lista de repositorios remotos asociados con el repositorio local. Puedes ver los nombres y las URL de los repositorios remotos configurados.
+14.	git reset <archivo>:
+•	Quita los archivos especificados del área de preparación sin descartar los cambios en el directorio de trabajo. Es útil para deshacer accidentalmente la adición de un archivo.
+15.	git stash:
+•	Guarda temporalmente los cambios locales que aún no han sido confirmados en un área de almacenamiento temporal. Puedes utilizar esto para guardar cambios parcialmente completos y retomarlos más tarde.
+16.	git tag <nombre>:
+•	Crea un nuevo tag (etiqueta) en el repositorio en el commit actual. Los tags se utilizan para marcar versiones importantes o hitos en el historial de commits.
